@@ -1,7 +1,8 @@
-baseurl = "https://blog.izelu.com"
+baseurl = "https://newcore.github.io"
 title = "沪上李锐聊AI和价值投资"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
+defaultTheme = "auto"
 preserveTaxonomyNames = true
 hasCJKLanguage = true
 
