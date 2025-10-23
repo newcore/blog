@@ -1,0 +1,33 @@
+# This is a basic workflow to help you get started with Actions
+
+name: hugo-deploy-CI
+
+# Controls when the action will run.
+on: push
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # docs：https://github.com/peaceiris/actions-gh-pages
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.151.2'
+          extended: true
+
+      - name: Build
+        run: hugo
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          external_repository: newcore/newcore.github.io # 修改为自己的地址
+          publish_dir: ./public
+        #   keep_files: true
+          publish_branch: master
+          cname: newcore.github.io # 如有独立域名，修改为自己的域名
