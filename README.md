@@ -17,8 +17,6 @@
 ## 技术栈
 
 - **静态站点生成器**：Hugo
-- **主题**：[hugo-theme-cleanwhite](https://github.com/zhaohuabing/hugo-theme-cleanwhite)
-- **部署**：通过 `deploy.sh` 脚本部署
 
 ## 本地运行
 
