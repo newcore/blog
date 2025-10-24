@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 沪上李锐聊AI和价值投资</title>
-    <link>https://newcore.github.io/post/</link>
+    <link>http://localhost:1313/post/</link>
     <description>Recent content in Posts on 沪上李锐聊AI和价值投资</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://newcore.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>价值投资第一课</title>
-      <link>https://newcore.github.io/post/2025-10-22-learn-value-investment/</link>
+      <link>http://localhost:1313/post/2025-10-22-learn-value-investment/</link>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://newcore.github.io/post/2025-10-22-learn-value-investment/</guid>
+      <guid>http://localhost:1313/post/2025-10-22-learn-value-investment/</guid>
       <description>&lt;h1 id=&#34;打算系统学习价值投资了&#34;&gt;打算系统学习价值投资了&lt;/h1&gt;&#xA;&lt;p&gt;最近上海的天气格外宜人，连续多日蓝天白云，心情也跟着明朗起来。与此同时，我对投资的兴趣也愈发浓厚——或许是因为最近美股大涨，我的投资回报率竟然超过了 &lt;strong&gt;20%&lt;/strong&gt;！&lt;/p&gt;</description>
     </item>
   </channel>
